@@ -2,7 +2,7 @@
 
 A WIP 2d/3d rendering engine for use in my computer graphics endeavors.
 
-##Features
+## Features
 Line drawing
 Circle drawing
 2D transformations (translate, rotate, scale)
@@ -11,7 +11,7 @@ Load and save models
 Perspective projection
 Viewport and camera manipulation
 
-##TODO
+## TODO
 Proper driver
 Line clipping
 Filling
