@@ -1,0 +1,22 @@
+plugins {
+  id 'application'
+  id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "20"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+application {
+    mainClass = 'pixelgraphics3d.PixelDriver'
+}
+
+run {
+    main = 'pixelgraphics3d.PixelDriver'
+    standardInput = System.in
+}
